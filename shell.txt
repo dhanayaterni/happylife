@@ -1,0 +1,9 @@
+
+#!/bin/bash
+sudo su
+yum update -y
+yum install httpd -y
+service httpd start
+echo "<html><body><h1>Welcome to my Datapro website !! </h1></body></html>">/var/www/html/index.html
+webseverscript.txt
+
